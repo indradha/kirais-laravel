@@ -1,0 +1,41 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
+
+body {
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+	color: #333;
+	background: url('../images/kirais-bg.jpg') #EEE;
+}
+
+.welcome {
+	width: 320px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	margin-left: -160px;
+	margin-top: -100px;
+}
+
+input{
+	background: none;
+	border: none;
+}
+
+a, a:visited {
+	text-decoration:none;
+}
+
+.icon{
+	opacity : 0.5;
+	width:100px;
+	margin-top:20px;
+	transition: opacity 1s, width 1s, margin-top 1s;
+}
+
+.icon:hover{
+	opacity : 1; 
+	width:200px;
+	margin-top:-20px;
+
+}
